@@ -3,12 +3,12 @@ name: amazfish build
 on:
   push:
     branches:
-      - master
+      - gtr2
     tags:
       - '*'
   pull_request:
     branches:
-      - master
+      - gtr2
 
 jobs:
   build:
